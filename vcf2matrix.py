@@ -10,6 +10,8 @@ vcf_in = VariantFile(vcf_filename)
 
 # print(vcf_in.header)
 
+samples = []
+
 for rec in vcf_in.fetch():
     #vcf_out.write(rec
     #print(rec)
@@ -20,7 +22,7 @@ for rec in vcf_in.fetch():
         alts = [alt for alt in rec.alts]
         print(alts)
         # print(list(rec.format))
-        # print(list(rec.samples))
+        print(list(rec.samples))
 
         # print(rec.samples.values())
         
