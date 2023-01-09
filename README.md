@@ -1,4 +1,4 @@
-# genes-and-geo
+# genes-and-geography
 
 This is a project on the topic of population genetics. 
 
